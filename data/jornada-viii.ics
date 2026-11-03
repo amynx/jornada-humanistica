@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//UNIPAZ//VIII Jornada Humanistica//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:viii-jornada-humanistica-2026@unipaz
+DTSTAMP:20261103T120000Z
+DTSTART:20261107T120000Z
+DTEND:20261107T170000Z
+SUMMARY:VIII Jornada Humanística\, Social y Cultural · UNIPAZ
+LOCATION:Centro de Investigaciones Santa Lucía\, Km 14 vía Bucaramanga\, vereda El Zarzal\, Barrancabermeja\, Santander\, Colombia
+DESCRIPTION:Organiza la Escuela de Ingeniería de Producción de UNIPAZ. 7:00 a. m. a 12:00 m.
+END:VEVENT
+END:VCALENDAR

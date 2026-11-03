@@ -1,0 +1,13 @@
+node_modules/
+.DS_Store
+_site/
+
+# Material fuente que no se publica
+FOTOS JORNADA HUMANISTICA/
+*.xlsx
+
+# Contiene nombres de personas del cronograma interno: se queda en local
+PROJECT-CONTEXT.md
+
+# Configuración local del asistente
+.claude/

@@ -1,0 +1,15 @@
+{
+  "name": "jornada-humanistica-unipaz",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Landing estática de la VIII Jornada Humanística, Social y Cultural · UNIPAZ",
+  "type": "module",
+  "scripts": {
+    "optimize": "node tools/optimize-images.mjs",
+    "build": "node tools/build-css.mjs",
+    "dev": "node tools/serve.mjs"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.0"
+  }
+}

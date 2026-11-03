@@ -1,0 +1,62 @@
+/* Tokens del sistema visual. Referencia: DESIGN.md §3–§6 */
+
+@font-face {
+  font-family: "Archivo";
+  src: url("../assets/fonts/archivo-latin-wdth.woff2") format("woff2");
+  font-weight: 100 900;
+  font-stretch: 62% 125%;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Newsreader";
+  src: url("../assets/fonts/newsreader-latin.woff2") format("woff2");
+  font-weight: 200 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Newsreader";
+  src: url("../assets/fonts/newsreader-latin-italic.woff2") format("woff2");
+  font-weight: 200 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+  /* Base */
+  --azul: #013390;
+  --azul-profundo: #012a7b;
+  --tinta: #031d61;
+  --papel: #f2f4f8;
+  --blanco: #ffffff;
+  --filete: rgb(3 29 97 / 0.22);
+
+  /* Color = valor (segmentos del logo) */
+  --v-naranja: #f16602;
+  --v-amarillo: #f5b902;
+  --v-magenta: #921275;
+  --v-cielo: #0270b8;
+  --v-verde: #2a7d23;
+
+  /* Tipografía */
+  --f-display: "Archivo", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  --f-texto: "Newsreader", Georgia, "Times New Roman", serif;
+
+  /* Escala */
+  --t-xs: 0.875rem;
+  --t-s: 1rem;
+  --t-m: 1.125rem;
+  --t-l: 1.5rem;
+  --t-xl: 2rem;
+  --t-2xl: clamp(2.25rem, 4.2vw, 3.5rem);
+
+  /* Retícula */
+  --m: clamp(20px, 5vw, 72px);
+  --gutter: clamp(16px, 1.8vw, 24px);
+  --max: 1440px;
+  --header-h: 64px;
+
+  /* Espacio vertical entre secciones */
+  --sec: clamp(72px, 10vw, 152px);
+}
