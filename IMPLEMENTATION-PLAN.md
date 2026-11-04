@@ -107,9 +107,10 @@ Checklist original (referencia):
 | 2 | Confirmar "Investigaciones" (plural) en el nombre del lugar | Cliente |
 | 3 | Confirmar autorización de las personas que aparecen en las fotos | Cliente |
 | 4 | Confirmar si el rótulo de la jornada de 2024 lleva número de edición | Cliente |
-| 5 | Decidir sobre GREIP, "Vigilada MinEducación" y enlace de inscripción | Cliente |
+| 5 | Decidir sobre GREIP y "Vigilada MinEducación" | Cliente |
 | 6 | Sustituir el logo horizontal de baja resolución por el vector, si existe | Cliente |
-| 7 | Configurar en el hosting el caché de `assets/` (ver `_headers`) y la compresión | Equipo |
+| 7 | Hosting: GitHub Pages ya aplica compresión; `_headers` no se usa allí (el caché de `assets/` lo define GitHub) | Equipo |
+| 8 | Comprobar que el formulario de inscripción abre sin iniciar sesión institucional (es un Apps Script del dominio unipaz.edu.co) | Cliente |
 
 ## Riesgos
 | Riesgo | Mitigación |

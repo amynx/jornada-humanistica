@@ -360,6 +360,7 @@ Cambios respecto a lo propuesto, decididos al ver la página real:
 | Fotos del hero | Recortes de 2024 | Tres recortes 2:5 de la jornada 2024 | Son las de mayor resolución |
 | Footer | Con "Vigilada MinEducación" si se confirmaba | **Sin** esa línea | Sin confirmar; ver PROJECT-CONTEXT |
 | Movimiento | Una sola animación (portada) | Tres usos de un mismo lenguaje (portada, barras, galería); ver §5 | El cliente pidió animaciones pertinentes; se limitaron a lo que comunica algo |
+| Acción principal | "Agregar al calendario" (no había enlace de inscripción) | **"Inscribirme"** (cabecera, portada y datos del evento); el calendario queda como acción secundaria | El cliente aportó el enlace del formulario de inscripción |
 | Imagen para redes | Sin especificar | `assets/og.jpg` generada desde `tools/og-template.html` | Mismo lenguaje del hero |
 
 ### CSS
